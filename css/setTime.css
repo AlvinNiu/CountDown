@@ -1,0 +1,29 @@
+body{
+	background: #16a085;
+    color: #FFF;
+}
+#setTime_middle{
+	margin-top: 100px;
+	margin-left: 400px;
+}
+#setTime_bottom{
+	margin-top: 50px;
+	margin-left: 400px;
+}
+#count_name,#endTime{
+	width:400px;
+	height: 40px;
+	font-size: 21px;
+}
+#btn_sub{
+	margin-top: 100px;
+	background: #f1504c;
+	margin-left: 176px;
+	border-radius: 5px;
+    width: 200px;
+    height: 40px;
+}
+#btn_sub:hover{
+	background: #b50905;
+	cursor:hand;
+}

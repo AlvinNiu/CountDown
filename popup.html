@@ -1,0 +1,23 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<script type="text/javascript"  src = "Script/jquery-3.1.1.js"></script>
+	<script type="text/javascript"  src = "Script/downCount.js"></script>
+	
+</head>
+<body>
+	<div id="div_all">
+		<div id="div_all_top">
+			<h3 id="count_name"><span>距离</span>*******<span>还有</span></h3>
+		</div>
+		<div id="div_all_middle">
+			<h1 ng-show="countdown"><span id="day">0</span><span class="time-unit">d</span> : <span id="hour">0</span><span class="time-unit">h</span> : <span id="minute">0</span><span class="time-unit">m</span> : <span id="second">0</span><span class="time-unit">s</span> 
+			</h1>
+		</div>
+		<div id="div_all_bottom">
+			<!--<p id="setBtn">重新设置</p>-->
+			<a href="setTime.html" target="_blank"><img src="images/options.png" id ="setImg" /></a>			
+		</div>
+	</div>
+</body>
+</html>

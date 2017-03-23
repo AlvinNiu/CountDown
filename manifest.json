@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "倒计时",
+    "version": "1.0.0.1",
+    "description": "这是一个倒计时的小扩展",
+    "icons": {
+        "19": "images/icon19.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon19.png",
+            "38": "images/icon38.png"
+        },
+        "default_title": "倒计时程序",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        
+    },
+    "permissions": [
+        "activeTab","storage"
+    ],
+    "web_accessible_resources": [
+        "images/*.png"
+    ]
+}
